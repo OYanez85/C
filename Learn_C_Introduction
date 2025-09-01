@@ -1,0 +1,34 @@
+// Statements must end in a semicolon (;)
+// correct
+printf("Hello World!");
+
+// error
+printf("Hello World!")
+  
+// Code elements are case sensitive
+// correct
+printf("Hello World!");
+
+// error
+PRINTF("Hello World!");
+
+// \n acts as a newline in a string
+printf("Hello\nWorld!"); // Outputs: Hello
+                         //          World!
+
+// \t acts as a tab in a string
+printf("Hello\tWorld!"); // Outputs: Hello    World!
+
+// Comments
+
+/* This review content is 
+about comments and how they
+can be used to document code */
+
+// This is a line comment
+
+/* This is a
+block comment */
+
+gcc script.c
+gcc script.c -o myProgram
